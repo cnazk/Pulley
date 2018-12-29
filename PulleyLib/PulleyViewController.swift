@@ -821,11 +821,13 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
             
             drawerScrollView.addSubview(drawerShadowView)
             
+            /*
             if let drawerBackgroundVisualEffectView = drawerBackgroundVisualEffectView
             {
                 drawerScrollView.addSubview(drawerBackgroundVisualEffectView)
                 drawerBackgroundVisualEffectView.layer.cornerRadius = drawerCornerRadius
             }
+            */
             
             drawerScrollView.addSubview(drawerContentContainer)
             
