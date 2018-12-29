@@ -704,6 +704,7 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
         self.view.addSubview(backgroundDimmingView)
         // MARK SINA
         print("SINAAAAAAAAAAAAAAAAAAAA")
+        navigationController?.navigationBar.addSubview(backgroundDimmingView)
         self.view.addSubview(drawerScrollView)
         
         primaryContentContainer.constrainToParent()
