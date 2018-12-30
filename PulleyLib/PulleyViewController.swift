@@ -819,7 +819,7 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
                 drawerScrollView.frame = CGRect(x: adjustedLeftSafeArea, y: self.view.bounds.height - adjustedTopInset, width: self.view.bounds.width - adjustedLeftSafeArea - adjustedRightSafeArea, height: adjustedTopInset)
             }
             
-            drawerScrollView.addSubview(drawerShadowView)
+            //drawerScrollView.addSubview(drawerShadowView)
             
             /*
             if let drawerBackgroundVisualEffectView = drawerBackgroundVisualEffectView
