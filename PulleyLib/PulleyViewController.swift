@@ -696,13 +696,13 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
         }
         */
         
-        //drawerScrollView.addSubview(drawerContentContainer)
+        drawerScrollView.addSubview(drawerContentContainer)
         
         primaryContentContainer.backgroundColor = UIColor.white
         
         self.view.backgroundColor = UIColor.white
         
-        //self.view.addSubview(primaryContentContainer)
+        self.view.addSubview(primaryContentContainer)
         //self.view.addSubview(backgroundDimmingView)
         // MARK SINA
         print("SINAAAAAAAAAAAAAAAAAAAA")
