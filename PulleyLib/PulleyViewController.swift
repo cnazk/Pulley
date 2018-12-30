@@ -1104,7 +1104,7 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
     private func backgroundDimmingViewFrameForDrawerPosition(_ drawerPosition: CGFloat) -> CGRect {
         let cutoutHeight = (2 * drawerCornerRadius)
         var backgroundDimmingViewFrame = backgroundDimmingView.frame
-        backgroundDimmingViewFrame.origin.y = 0 - drawerPosition + drawerCornerRadius
+        backgroundDimmingViewFrame.origin.y = 0 - drawerPosition + drawerCornerRadius / 2
 
         return backgroundDimmingViewFrame
     }
